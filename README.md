@@ -1,3 +1,25 @@
+###### Table of contents
+
+<!-- toc -->
+
+- [Introduction](#introduction)
+  * [But I already have a working envrionment!](#but-i-already-have-a-working-envrionment)
+- [Requirements](#requirements)
+  * [Installing requirements on OSX](#installing-requirements-on-osx)
+  * [Installing requirements on Linux](#installing-requirements-on-linux)
+  * [Installing requirements on Windows](#installing-requirements-on-windows)
+- [Getting started](#getting-started)
+  * [Command groups](#command-groups)
+- [Best practices](#best-practices)
+  * [Send your logs to the `logs/` folder when bind-mounting services](#send-your-logs-to-the-logs-folder-when-bind-mounting-services)
+  * [Use envrionment variables to configure things](#use-envrionment-variables-to-configure-things)
+- [FAQ](#faq)
+  * [Where are my logs?](#where-are-my-logs)
+- [Contributing](#contributing)
+  * [Documentation](#documentation)
+
+<!-- tocstop -->
+
 # Introduction
 This is a template that represents a development pattern I've used to develop
 and manage docker-based microservices. It provides several benefits:
